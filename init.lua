@@ -5,3 +5,7 @@ vim.loader.enable()
 
 require "mbrav"
 vim.g.mapleader = " "
+vim.cmd [[colorscheme kanagawa]]
+vim.opt.termguicolors = true
+-- vim.cmd [[colorscheme gruvbox]]
+-- vim.o.background = ""
